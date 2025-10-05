@@ -1,0 +1,24 @@
+{
+    // Disable specific Pylance error reporting
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingTypeStubs": "none",
+        "reportUnknownMemberType": "none",
+        "reportUnknownParameterType": "none",
+        "reportUnknownVariableType": "none",
+        "reportUnknownArgumentType": "none",
+        "reportGeneralTypeIssues": "none",
+        "reportOptionalMemberAccess": "none",
+        "reportMissingTypeArgument": "none",
+        "reportInvalidTypeForm": "none",
+        "reportMissingParameterType": "none"
+    },
+    // Disable the problematic import warnings
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.typeCheckingMode": "off",
+    // Other helpful settings
+    "python.languageServer": "Pylance",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.extraPaths": [
+        "./workout_env/Lib/site-packages"
+    ]
+}
