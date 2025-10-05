@@ -1,6 +1,8 @@
-# RepBot - AI-Powered Workout Tracker
+# 🚧 RepBot - Computer Vision Workout Tracker [WIP]
 
-RepBot is an AI-powered workout tracking system that uses computer vision to count exercise repetitions and monitor form in real-time. With its cyberpunk-inspired interface and advanced pose detection, it provides an engaging way to track your workouts.
+RepBot is a side project that uses computer vision to count exercise repetitions and monitor form in real-time. With its cyberpunk-inspired interface and pose detection capabilities, it provides an engaging way to track your workouts.
+
+> ⚠️ **Work in Progress**: This is an experimental side project under active development.
 
 ## Features
 
@@ -90,6 +92,42 @@ RepBot uses MediaPipe's pose detection to track 33 key body points in real-time.
 - OpenCV for video processing
 - PyQt5 for the graphical interface
 - NumPy for mathematical calculations
+
+## Roadmap & TODOs
+
+### In Progress 🚧
+
+- [ ] Improve pose detection accuracy
+- [ ] Add more exercise types
+- [ ] Enhance form feedback system
+
+### Planned Features 🎯
+
+- [ ] Exercise history tracking
+- [ ] Custom workout routines
+- [ ] Performance statistics and graphs
+- [ ] Export workout data
+- [ ] Mobile app integration
+- [ ] Voice feedback
+
+### Nice to Have 💭
+
+- [ ] Multiple camera support
+- [ ] Cloud sync capabilities
+- [ ] Social features (sharing workouts)
+- [ ] Custom exercise definitions
+- [ ] Virtual trainer suggestions
+
+> 👋 **Want to Contribute?** Feel free to:
+>
+> - Pick up any TODO items
+> - Report bugs
+> - Suggest new features
+> - Submit pull requests
+
+## Development Status
+
+This is a side project that I work on in my spare time. Feel free to use it, but keep in mind that it's still under development and features may change.
 
 ## License
 
