@@ -74,6 +74,21 @@ python main.py
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## How It Works
+
+RepBot uses MediaPipe's pose detection to track 33 key body points in real-time. The application processes these points to:
+- Calculate joint angles and body positions
+- Detect exercise movements using custom algorithms
+- Track repetitions based on movement patterns
+- Monitor form and provide feedback
+
+### Tech Stack
+- Python for core functionality
+- MediaPipe for pose detection
+- OpenCV for video processing
+- PyQt5 for the graphical interface
+- NumPy for mathematical calculations
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
